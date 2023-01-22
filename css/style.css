@@ -1,0 +1,47 @@
+:root{
+    --branco-principal:#ffffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul:#167bf7;
+    --cor-de-fundo:#00030c;
+
+}
+
+body{
+    background-color:var(--cor-de-fundo)
+}
+.main{
+    color: var(--branco-principal);
+    text-align: center;
+}
+.titulo{
+    color: var(--branco-principal);
+    font-weight: bolder;
+
+}
+.titulo_loja{
+    color:blue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo_secundario{
+    color : red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.container{
+    height: 100vh;
+}
+.principal{
+    height: 100vh;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.image{
+    height: 30%;
+    width: 30%;
+    padding: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
