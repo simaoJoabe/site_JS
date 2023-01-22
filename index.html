@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>JLS Store</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Lojas JLS <strong>A mais completa loja on-line do Pais</strong></h1>
+      <p>promocoes</p>
+      <a href="./main_celulares.html">Celulares</a> <a>TVS\monitores</a>
+      <img src="./image/download.jpeg" alt="foto " />
+    </main>
+
+    <section class="busca">
+      <label>Buscar produto</label>
+      <input placeholder="escreva o nome do produto" />
+      <button onclick=" buscaProduto('#resultadoBusca')">buscar</button>
+    </section>
+    <div id="resultadoBusca" ondblclick="mostraEspec('#especifica')"></div>
+    <aside id="especifica"></aside>
+
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
