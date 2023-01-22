@@ -7,6 +7,6 @@ result.innerHTML =  `<img src="./image/download.jpeg" />`
 }
 const mostraEspec = (seletor)=>{
     const especificacoes = document.querySelector(seletor)
-    especificacoes.innerHTML = "celular motorola 8GB ram, 12megaPix,128GB espaço interno"
+    especificacoes.innerHTML = `<a href="./main_celulares.html">celular motorola 8GB ram, 12megaPix,128GB espaço interno</a> `
 
 }
